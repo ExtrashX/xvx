@@ -55,7 +55,7 @@ def attack(ip, port, time, size):
 
 
 def main():
-    print len(sys.argv)
+    print(len(sys.argv))
     if len(sys.argv) != 5:
         usage()
     else:
