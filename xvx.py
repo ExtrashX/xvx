@@ -62,8 +62,4 @@ def main():
         attack(sys.argv[1], int(sys.argv[2]), int(sys.argv[3]), int(sys.argv[4])
 
 if __name__ == '__main__':
-    try:
-        main()
-    except KeyboardInterrupt:
-        print("\033[32mAttack stopped.")
-        clear()
+    main()
